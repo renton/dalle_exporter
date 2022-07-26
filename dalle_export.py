@@ -55,7 +55,6 @@ if __name__ == "__main__":
                         'i':gen['generation']['image_path']
                 }
         time.sleep(SLEEP_AMOUNT)
-        break
 
     for k,v in gen_data.items():
         try:
